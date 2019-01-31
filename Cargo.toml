@@ -1,0 +1,15 @@
+[package]
+name = "mri-sys"
+version = "0.1.0"
+authors = ["Simon Génier <1782845+animalsiknow@users.noreply.github.com>"]
+homepage = "https://github.com/animalsiknow/mri-sys"
+documentation = "https://animalsiknow.github.io/doc/mri_sys/"
+edition = "2018"
+license = "BSD-2-Clause"
+readme = "README.md"
+
+[build-dependencies.bindgen]
+version = "0.47"
+
+[build-dependencies.subprocess]
+version = "0.1"
