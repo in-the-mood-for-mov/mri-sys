@@ -20,6 +20,7 @@ fn main() {
     .clang_arg(format!("-I{}", ruby_arch_header_dir))
     .default_enum_style(bindgen::EnumVariation::ModuleConsts)
     .whitelist_type("rb_iseq_constant_body")
+    .whitelist_type("ibf_header")
     .generate()
     .unwrap();
 
